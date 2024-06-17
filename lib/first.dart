@@ -39,8 +39,9 @@ class _FirstState extends State<First> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [LengthLimitingTextInputFormatter(1)],
                     style: TextStyle(color: Colors.white, fontSize: 30),
-                    decoration:
-                        InputDecoration(filled: true, fillColor: Colors.black),
+                    decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 193, 177, 177)),
                   ),
                 ),
                 SizedBox(
@@ -56,8 +57,9 @@ class _FirstState extends State<First> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [LengthLimitingTextInputFormatter(1)],
                     style: TextStyle(color: Colors.white, fontSize: 30),
-                    decoration:
-                        InputDecoration(filled: true, fillColor: Colors.black),
+                    decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 198, 177, 177)),
                   ),
                 ),
                 SizedBox(
@@ -73,8 +75,9 @@ class _FirstState extends State<First> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [LengthLimitingTextInputFormatter(1)],
                     style: TextStyle(color: Colors.white, fontSize: 30),
-                    decoration:
-                        InputDecoration(filled: true, fillColor: Colors.black),
+                    decoration: InputDecoration(
+                        filled: true,
+                        fillColor: const Color.fromARGB(255, 194, 174, 174)),
                   ),
                 ),
                 SizedBox(
@@ -90,8 +93,9 @@ class _FirstState extends State<First> {
                     keyboardType: TextInputType.number,
                     inputFormatters: [LengthLimitingTextInputFormatter(1)],
                     style: TextStyle(color: Colors.white, fontSize: 30),
-                    decoration:
-                        InputDecoration(filled: true, fillColor: Colors.black),
+                    decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Color.fromARGB(255, 192, 170, 170)),
                   ),
                 )
               ],
@@ -126,7 +130,7 @@ class _FirstState extends State<First> {
         child: ElevatedButton(
           onPressed: () {},
           child: Text(
-            "Verify and creaate",
+            "Verify",
             style: TextStyle(fontSize: 20, color: Colors.black),
           ),
           style: ElevatedButton.styleFrom(
